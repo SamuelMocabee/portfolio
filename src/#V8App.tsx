@@ -24,7 +24,7 @@ const projects = [
     role: "Co-Lead UX Designer & Researcher",
     timeline: "16 weeks (Aug - Dec 2025)",
     tools: ["Figma","UserTesting", "Adobe Express", "Discord", "Draw.io", "Microsoft Teams", "Google Docs"],
-    heroImage: "/images/projects/CookingTime/CookingTime.png",
+    heroImage: "/portfolio/images/projects/CookingTime/CookingTime.png",
     shortDescription: "Improving User Cooking skills and experience through user-centered design and accessibility improvements.",
     problem: "Many people struggle with everyday cooking decisions: not knowing what to cook after a long day, how to plan meals in advance, or what to do with leftover ingredients. These challenges often lead to frustration, wasted food, and missed opportunities for healthier eating. For college students and working professionals with busy schedules and limited grocery store trips, it is important to find quick, accessible, and adaptable ingredient lists, recipes, and cooking guidance.",
     solution: "Providing a web or mobile application that makes it easy to discover and organize recipes through integrating modern technology such as (AI, AR/VR) to enhance cooking guidange and learning. Helping users reduce food waste with suggestive recipes based on available ingredients while also supporting health and fitness goals through recipe personalization (e.g. nutrition tracking, dietary preferences.",
@@ -48,12 +48,12 @@ const projects = [
           ],
           artifacts: ["Empathy maps", "Quantitative analytics"],
           images: [
-            "/images/projects/CookingTime/empathy/emp1.png",
-            "/images/projects/CookingTime/empathy/emp2.png",
-            "/images/projects/CookingTime/empathy/emp3.png",
-            "/images/projects/CookingTime/empathy/emp4.png",
-            "/images/projects/CookingTime/empathy/emp5.png",
-            "/images/projects/CookingTime/empathy/demographics.png",
+            "/portfolio/images/projects/CookingTime/empathy/emp1.png",
+            "/portfolio/images/projects/CookingTime/empathy/emp2.png",
+            "/portfolio/images/projects/CookingTime/empathy/emp3.png",
+            "/portfolio/images/projects/CookingTime/empathy/emp4.png",
+            "/portfolio/images/projects/CookingTime/empathy/emp5.png",
+            "/portfolio/images/projects/CookingTime/empathy/demographics.png",
           ]
         }
       },
@@ -71,8 +71,8 @@ const projects = [
           ],
           artifacts: ["User personas", "Business Model"],
           images: [
-            "/images/projects/CookingTime/define/primarypersona2.png",
-            "/images/projects/CookingTime/define/businessmodel.png"
+            "/portfolio/images/projects/CookingTime/define/primarypersona2.png",
+            "/portfolio/images/projects/CookingTime/define/businessmodel.png"
           ]
         }
       },
@@ -90,8 +90,8 @@ const projects = [
           ],
           artifacts: ["Mind Map", "Concept sketches"],
           images: [
-            "/images/projects/CookingTime/ideate/mindmap1.png",
-            "/images/projects/CookingTime/ideate/mindmap2.png"
+            "/portfolio/images/projects/CookingTime/ideate/mindmap1.png",
+            "/portfolio/images/projects/CookingTime/ideate/mindmap2.png"
           ]
         }
       },
@@ -109,10 +109,10 @@ const projects = [
           ],
           artifacts: ["Paper prototypes", "Wireframes", "Interactive prototype", "Adobe XD"],
           images: [
-            "/images/projects/CookingTime/prototype/pro1.png",
-            "/images/projects/CookingTime/prototype/pro2.png",
-            "/images/projects/CookingTime/prototype/pro3.png",
-            "/images/projects/CookingTime/prototype/pro4.png"
+            "/portfolio/images/projects/CookingTime/prototype/pro1.png",
+            "/portfolio/images/projects/CookingTime/prototype/pro2.png",
+            "/portfolio/images/projects/CookingTime/prototype/pro3.png",
+            "/portfolio/images/projects/CookingTime/prototype/pro4.png"
           ]
         }
       },
@@ -130,7 +130,7 @@ const projects = [
           ],
           artifacts: ["Usability Test Plan", "Usability test reports", "Session recordings"],
           images: [
-            "/images/projects/CookingTime/test/usabilitytest.png"
+            "/portfolio/images/projects/CookingTime/test/usabilitytest.png"
           ]
         }
       }
@@ -158,7 +158,7 @@ const projects = [
     role: "Moisture Sensor & Ignition Designer",
     timeline: "6 weeks (May - June 2023)",
     tools: ["Miro", "Discord", "Microsoft Teams"],
-    heroImage: "/images/projects/CloudSeed/drone.jpg",
+    heroImage: "/portfolio/images/projects/CloudSeed/drone.jpg",
     shortDescription: "Increasing rain production in low resivoir areas through cloud seeding with user specific design.",
     problem: "The government needs inexpensive cheap cloud seeding drones to recover from reservoir levels reaching record lows.",
     solution: "Designing a cloud seeding drone that can deploy flares to make more rain occur in communities in need.",
@@ -181,8 +181,8 @@ const projects = [
           ],
           artifacts: ["Community research sessions", "Stakeholder maps"],
           images: [
-            "/images/projects/CloudSeed/Empathy/stakeholder.jpg",
-            "/images/projects/CloudSeed/Empathy/bull.jpg"
+            "/portfolio/images/projects/CloudSeed/Empathy/stakeholder.jpg",
+            "/portfolio/images/projects/CloudSeed/Empathy/bull.jpg"
           ]
         }
       },
@@ -201,8 +201,8 @@ const projects = [
           ],
           artifacts: ["Shared Vision", "Objective Tree"],
           images: [
-            "/images/projects/CloudSeed/define/sharedvision.png",
-            "/images/projects/CloudSeed/define/objectiveTree.jpg"
+            "/portfolio/images/projects/CloudSeed/define/sharedvision.png",
+            "/portfolio/images/projects/CloudSeed/define/objectiveTree.jpg"
           ]
         }
       },
@@ -221,8 +221,8 @@ const projects = [
           ],
           artifacts: ["Morphological Chart", "Sorted Attribute List"],
           images: [
-            "/images/projects/CloudSeed/ideate/morphchart.jpg",
-            "/images/projects/CloudSeed/ideate/sortedAttributesList.jpg"
+            "/portfolio/images/projects/CloudSeed/ideate/morphchart.jpg",
+            "/portfolio/images/projects/CloudSeed/ideate/sortedAttributesList.jpg"
           ]
         }
       },
@@ -241,11 +241,11 @@ const projects = [
           ],
           artifacts: ["Physical prototyping", "Flare Component Design", "System Architecture", "Logic & Control Systems"],
           images: [
-            "/images/projects/CloudSeed/prototype/drone.png",
-            "/images/projects/CloudSeed/prototype/flare.png",
-            "/images/projects/CloudSeed/prototype/SystemIntegration.jpg",
-            "/images/projects/CloudSeed/prototype/moistureSensorDrawing.jpg",
-            "/images/projects/CloudSeed/prototype/MoistureSensorUML.jpg"
+            "/portfolio/images/projects/CloudSeed/prototype/drone.png",
+            "/portfolio/images/projects/CloudSeed/prototype/flare.png",
+            "/portfolio/images/projects/CloudSeed/prototype/SystemIntegration.jpg",
+            "/portfolio/images/projects/CloudSeed/prototype/moistureSensorDrawing.jpg",
+            "/portfolio/images/projects/CloudSeed/prototype/MoistureSensorUML.jpg"
           ]
         }
       },
@@ -264,8 +264,8 @@ const projects = [
           ],
           artifacts: ["FMEA Risk Mitigation", "Test Plan"],
           images: [
-            "/images/projects/CloudSeed/test/highRPNFMEA.png",
-            "/images/projects/CloudSeed/test/testplan.png"
+            "/portfolio/images/projects/CloudSeed/test/highRPNFMEA.png",
+            "/portfolio/images/projects/CloudSeed/test/testplan.png"
           ]
         }
       }
@@ -351,11 +351,11 @@ export default function App() {
                 <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl"></div>
                 
                 {/* Profile photo */}
-                <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-background shadow-2xl bg-white">
+                <div className="relative w-80 h-80 md:w-[25rem] md:h-[25rem] rounded-full overflow-hidden border-4 border-background shadow-2xl">
                   <ImageWithFallback
                     src="/portfolio/images/personal/profile.png"
                     alt="Samuel Mocabee"
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -577,7 +577,7 @@ export default function App() {
               <div className="space-y-6">
                 <div className="aspect-[4/5] rounded-lg overflow-hidden">
                   <ImageWithFallback
-                    src="/images/personal/about.jpg"
+                    src="/portfolio/images/personal/about.jpg"
                     alt="Samuel Mocabee"
                     className="w-full h-full object-cover"
                   />
