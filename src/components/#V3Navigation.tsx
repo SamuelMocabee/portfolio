@@ -100,7 +100,7 @@ export function Navigation({ name, onBackToHome }: NavigationProps) {
               </Button>
             ))}
             <Button variant="outline" size="sm" className="ml-2" asChild>
-              <a href="/portfolio/documents/Samuel_Mocabee_CV.pdf" download aria-label="Download CV">
+              <a href="/documents/Samuel_Mocabee_CV.pdf" download aria-label="Download CV">
                 <Download className="size-4 mr-2" />
                 CV
               </a>
@@ -154,7 +154,7 @@ export function Navigation({ name, onBackToHome }: NavigationProps) {
                   );
                 })}
                 <Button variant="outline" size="lg" className="justify-start mt-4" asChild>
-                  <a href="/portfolio/documents/Samuel_Mocabee_CV.pdf" download>
+                  <a href="/documents/Samuel_Mocabee_CV.pdf" download>
                     <Download className="size-5 mr-3" />
                     Download CV
                   </a>
