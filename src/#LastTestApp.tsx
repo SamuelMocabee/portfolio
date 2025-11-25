@@ -336,54 +336,84 @@ export default function App() {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary/10 rounded-full blur-3xl"></div>
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
         </div>
+        
         <div className="container mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <Badge className="mb-6 bg-primary text-primary-foreground" variant="outline">Cybersecurity Engineer & Malware Analyst</Badge>
-            <h1 className="mb-6">
-              Building defenses by understanding threats
-            </h1>
-            <p className="text-muted-foreground mb-10 max-w-2xl mx-auto text-lg">
-              I'm a Cybersecurity graduate student passionate about solving complex security challenges through research and development. 
-              I apply design thinking and UI/UX principles to create user-centered solutions, ensuring technical projects are communicated with 
-              clarity and accessibility.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" asChild>
-                <a href="#work">
-                  View My Work
-                  <ArrowRight className="size-4 ml-2" />
-                </a>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <a href="/portfolio/documents/Samuel_Mocabee_CV.pdf" download>
-                  <Download className="size-4 mr-2" />
-                  Download CV
-                </a>
-              </Button>
-            </div>
-            <div className="flex gap-4 justify-center mt-8">
-              <Button variant="ghost" size="icon" asChild>
-                <a href="https://www.linkedin.com/in/samuel-mocabee" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
-                  <Linkedin className="size-5" />
-                </a>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <a href="https://github.com/SamuelMocabee" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
-                  <Github className="size-5" />
-                </a>
-              </Button>
-              <Button variant="ghost" size="icon" asChild>
-                <a href="mailto:samuel.mocabee@gmail.com" aria-label="Send email">
-                  <Mail className="size-5" />
-                </a>
-              </Button>
-            </div>
-          </motion.div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+            {/* Profile Picture - Left side on desktop */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8 }}
+              className="flex justify-center lg:justify-end order-2 lg:order-1"
+            >
+              <div className="relative w-full max-w-sm">
+                {/* Glow effect behind photo */}
+                <div className="absolute inset-0 bg-primary/20 rounded-full blur-2xl"></div>
+                
+                {/* Profile photo - uses aspect-square to scale naturally */}
+                <div className="relative aspect-square rounded-full overflow-hidden border-4 border-background shadow-2xl bg-white">
+                  <ImageWithFallback
+                    src="/portfolio/images/personal/profile.png"
+                    alt="Samuel Mocabee"
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Text Content - Right side on desktop */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-center lg:text-left order-1 lg:order-2"
+            >
+              <Badge className="mb-6 bg-primary text-primary-foreground" variant="outline">
+                Cybersecurity Engineer & Malware Analyst
+              </Badge>
+              <h1 className="mb-6">
+                Building defenses by understanding threats
+              </h1>
+              <p className="text-muted-foreground mb-10 text-lg">
+                I'm a Cybersecurity graduate student passionate about solving complex security challenges through research and development. 
+                I apply design thinking and UI/UX principles to create user-centered solutions, ensuring technical projects are communicated with 
+                clarity and accessibility.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
+                <Button size="lg" asChild>
+                  <a href="#work">
+                    View My Work
+                    <ArrowRight className="size-4 ml-2" />
+                  </a>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="/portfolio/documents/Samuel_Mocabee_CV.pdf" download>
+                    <Download className="size-4 mr-2" />
+                    Download CV
+                  </a>
+                </Button>
+              </div>
+              <div className="flex gap-4 justify-center lg:justify-start mt-8">
+                <Button variant="ghost" size="icon" asChild>
+                  <a href="https://www.linkedin.com/in/samuel-mocabee" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                    <Linkedin className="size-5" />
+                  </a>
+                </Button>
+                <Button variant="ghost" size="icon" asChild>
+                  <a href="https://github.com/SamuelMocabee" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                    <Github className="size-5" />
+                  </a>
+                </Button>
+                <Button variant="ghost" size="icon" asChild>
+                  <a href="mailto:samuel.mocabee@gmail.com" aria-label="Send email">
+                    <Mail className="size-5" />
+                  </a>
+                </Button>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Bounce arrow */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
